@@ -4,7 +4,7 @@
     1.  Create Dockerfile with configs
     2.  Update pom file for artifact names as below
 
-        groupId>com.example.com</groupId>
+        <groupId>com.example.com</groupId>
 	    <artifactId>spring-aws-s3</artifactId>
 	    <version>0.0.1</version>
 	    <name>spring-aws-s3</name>
