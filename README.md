@@ -2,8 +2,8 @@
 
 ## Steps to create and run Image in docker:
     1.  Create Dockerfile with configs
-    2.  Update pom file for artifact names as below
 
+    2.  Update pom file for artifact names as below
         <groupId>com.example.com</groupId>
 	    <artifactId>spring-aws-s3</artifactId>
 	    <version>0.0.1</version>
