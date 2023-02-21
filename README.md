@@ -1,6 +1,6 @@
 # spring-aws-s3
 
-Steps to create and run Image in docker:
+# Steps to create and run Image in docker:
 
 
 Build image - docker build -t shell-spring-docker .
