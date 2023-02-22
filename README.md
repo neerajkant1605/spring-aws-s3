@@ -1,5 +1,8 @@
 # spring-aws-s3
 
+## Restart gpg
+    gpgconf --kill gpg-agent
+
 ## Steps to create and run Image in docker:
     1.  Create Dockerfile with configs
 
