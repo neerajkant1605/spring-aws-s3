@@ -24,7 +24,7 @@ public class externalAPICall {
     private String apiUrl;
 
 
-    public  String callAPI() throws IOException, URISyntaxException, InterruptedException {
+    public   callAPI() throws IOException, URISyntaxException, InterruptedException {
         try {
             HttpRequest getRequest = HttpRequest.newBuilder()
                     .uri(new URI(apiUrl))
