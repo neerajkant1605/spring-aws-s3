@@ -1,5 +1,8 @@
 # spring-aws-s3
 
+## Restart gpg
+    gpgconf --kill gpg-agent
+
 ## Steps to create and run Image in docker:
     1.  Create Dockerfile with configs
 
@@ -15,6 +18,9 @@
     6.  Run image - docker run -p 8000:8080 spring-aws-s3
 
 ## Jenkins Pipeline
+    Integratin Jenkins with Github
+    
+
 
 
 
