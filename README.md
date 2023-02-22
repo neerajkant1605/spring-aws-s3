@@ -14,4 +14,7 @@
     5.  Build image - docker build -t spring-aws-s3 .
     6.  Run image - docker run -p 8000:8080 spring-aws-s3
 
+## Jenkins Pipeline
+
+
 
