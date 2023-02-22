@@ -37,6 +37,7 @@ public class externalAPICall {
         }
         catch (Exception e) {
             log.info ("There has been some issue: " + e);
+            log.info ("Jenkins test: " + e);
         }
         return  null;
     }
