@@ -18,7 +18,14 @@
     6.  Run image - docker run -p 8000:8080 spring-aws-s3
 
 ## Jenkins Pipeline
-    Integratin Jenkins with Github
+    Installation and Integrationn with Github (Point to remeber)
+    > Ensure compatible versions of Java is installed
+    > Install using .war
+    > U: jenkinsankay P: Usual (Futuara****$)
+    > Ensure JAVA_HOME is defined in Dashboard> Manage Jenkins> Global Tool Configurations> JDK (Same as your machine).
+
+    Docker Integration
+    
     
 
 

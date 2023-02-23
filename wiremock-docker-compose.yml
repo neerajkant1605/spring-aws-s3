@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  wiremock:    
+    container_name: wiremock
+    image: wiremock/wiremock
+    ports:
+      - "7070:8080"
+      - "7443:8443"

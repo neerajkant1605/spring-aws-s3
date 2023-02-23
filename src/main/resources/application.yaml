@@ -1,2 +1,5 @@
 api:
   url: https://www.boredapi.com/api/activity
+
+wiremock:
+  url: http://localhost:7070
