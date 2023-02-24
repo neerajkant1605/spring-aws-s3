@@ -30,7 +30,7 @@ public class wiremockAPICall {
     public  String httpWiremock() throws IOException, URISyntaxException, InterruptedException {
         try {
 
-            String adminUrl = wiremockUrl + "/wiremock";
+            String adminUrl = wiremockUrl+"/wiremock";
             log.info("URL Called is: " + adminUrl);
             HttpRequest getRequest = HttpRequest.newBuilder()
                     .uri(new URI(adminUrl))
@@ -39,7 +39,7 @@ public class wiremockAPICall {
             HttpClient httpClient = HttpClient.newHttpClient();
             HttpResponse <String> getResponse = httpClient.send(getRequest, HttpResponse.BodyHandlers.ofString());
             String response = getResponse.body();
-            log.info ("Response is: " + response);
+            log.info ("Response is: " + response + ":-->" + getResponse.statusCode());
             return response;
 
 

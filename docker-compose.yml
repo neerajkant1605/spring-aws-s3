@@ -1,5 +1,6 @@
 version: '3'
 
+## Wiremock
 services:
   wiremock:    
     container_name: wiremock
@@ -7,3 +8,6 @@ services:
     ports:
       - "7070:8080"
       - "7443:8443"
+networks:
+    external-api:
+      external: true
