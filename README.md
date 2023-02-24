@@ -28,7 +28,7 @@
     7.  Ensure to replace localhost with app name in your app
         http://wiremock:8080/wiremock
 
-    Something
+    
          
 
 ## Jenkins Pipeline
