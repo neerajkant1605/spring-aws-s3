@@ -37,7 +37,7 @@
     > Start Jenkins if stopped: net start jenkins
 
 ## Docker Jenkins Integration
-    > Create jenkins file in pipeline and commit to SCM -- testing 13
+    > Create jenkins file in pipeline and commit to SCM -- testing 14
     > 
     
     
