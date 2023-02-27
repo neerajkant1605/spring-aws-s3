@@ -20,11 +20,8 @@ public class wiremockAPICall {
     @Value("${wiremock.url}")
     private String wiremockUrl;
 
-
-
-
-
-    String jsonPostMessage = "{}";
+    @Value("${environment.repo}")
+    private  String env;
 
 
     public  String httpWiremock() throws IOException, URISyntaxException, InterruptedException {
@@ -40,7 +37,7 @@ public class wiremockAPICall {
             HttpResponse <String> getResponse = httpClient.send(getRequest, HttpResponse.BodyHandlers.ofString());
             String response = getResponse.body();
             log.info ("Response is: " + response + ":-->" + getResponse.statusCode());
-            return response;
+            return response + " " + env ;
 
 
         }
