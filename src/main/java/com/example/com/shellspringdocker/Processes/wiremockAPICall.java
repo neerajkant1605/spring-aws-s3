@@ -37,7 +37,7 @@ public class wiremockAPICall {
             HttpResponse <String> getResponse = httpClient.send(getRequest, HttpResponse.BodyHandlers.ofString());
             String response = getResponse.body();
             log.info ("Response is: " + response + ":-->" + getResponse.statusCode());
-            return response + " " + env+ "Jenkins test";
+            return response + " " + env+ " Jenkins test 11";
 
 
         }
