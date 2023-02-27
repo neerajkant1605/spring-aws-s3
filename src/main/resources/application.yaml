@@ -3,3 +3,6 @@ api:
 
 wiremock:
   url: http://wiremock:8080
+
+environment:
+  repo: master
