@@ -26,9 +26,7 @@
     5.  Build image - docker build -t spring-aws-s3 .
     6.  Run image - docker run --network "external-api" --name "s3app" -p 8000:8081  spring-aws-s3 (use name and network tab)
     7.  Ensure to replace localhost with app name in your app
-        http://wiremock:8080/wiremock something
-
-    
+        http://wiremock:8080/wiremock something    
          
 
 ## Jenkins Pipeline
@@ -39,7 +37,10 @@
     > Ensure JAVA_HOME is defined in Dashboard> Manage Jenkins> Global Tool Configurations> JDK (Same as your machine).
     > Start Jenkins if stopped: net start jenkins
 
-    Docker Integration
+## Docker Jenkins Integration
+    > Create jenkins file in pipeline and commit to SCM
+    > 
+    
     
     
 
