@@ -40,7 +40,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>spring-aws-s3</finalName>
 	</build>
 
 </project>
