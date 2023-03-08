@@ -26,7 +26,6 @@ public class wiremockAPICall {
 
     public  String httpWiremock() throws IOException, URISyntaxException, InterruptedException {
         try {
-
             String adminUrl = wiremockUrl+"/wiremock";
             log.info("URL Called is: " + adminUrl);
             HttpRequest getRequest = HttpRequest.newBuilder()
@@ -38,9 +37,8 @@ public class wiremockAPICall {
             String response = getResponse.body();
             log.info ("Response is: " + response + ":-->" + getResponse.statusCode());
             return response + "Env: " + env+ " Jenkins test 16";
-
-
         }
+        
         catch (Exception e) {
             log.info ("There has been some issue: " + e);
         }
