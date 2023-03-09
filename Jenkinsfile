@@ -11,7 +11,7 @@ pipeline {
     {
         stage ('Starter step') {
             steps {
-                echo 'Process begings now'
+                echo 'Process begins now'
             }
         }
         stage ('Checkout') {
